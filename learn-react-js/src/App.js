@@ -1,16 +1,15 @@
-
 import './App.css';
+import KomponenPertama from './componentFirst/KomponenPertama';
+import ReactPertama from './firstReactjs/ReactPertama';
+
 
 function App() {
   return (
-    <div className="App">
-      <div className='wrapper'>
-        <h1>Hello World</h1>
-        <hr/>
-        <p>Saya Sudah berhasil install react JS</p>
-      </div>
-     
-    </div>
+    <>
+      <ReactPertama/>
+      <KomponenPertama name="ghifary" age="79" hobi="Coding"/>
+    </>
+   
   );
 }
 

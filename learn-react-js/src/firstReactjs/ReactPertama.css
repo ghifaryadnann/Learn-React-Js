@@ -1,0 +1,11 @@
+.container{
+    margin: 0 auto;
+    background-color: aquamarine;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.wrapper{
+    padding: 20px;
+}
